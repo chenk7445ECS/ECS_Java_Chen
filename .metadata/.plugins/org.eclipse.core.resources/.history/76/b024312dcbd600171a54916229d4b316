@@ -20,7 +20,7 @@ public class MoreVariablesandPrinting
 		System.out.println( "His teeth are usually " + myTeeth + "depending on the coffee.");
 		
 		//This line is tricky; try to get it exactly right
-		System.out.println( "If I add " + myAge + ", " + myHeight +", and " + myWeight + " I get " + (myAge + myHeight + myWeight) + ".");
+		System.out.println( "If I add" + myAge + ", " + myHeight +", and" + myWeight + "I get" + (myAge + myHeight + myWeight) + ".");
 		
 	
 				
