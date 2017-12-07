@@ -15,7 +15,6 @@ public class ALittleQuizz
 		System.out.println();
 		if (answer1 == 1) {
 			System.out.println("Correct!");
-			score++;
 		}
 		else 
 		{
@@ -29,35 +28,16 @@ public class ALittleQuizz
 		
 		answer2 = keyboard.nextInt();
 		System.out.println();
-		if (answer2 == 1){
+		if (answer2 ==1){
 			System.out.println("Correct!");
-			score++;
 		}
 		else
 		{
 			System.out.println("Wrong, the answer is Washington DC");
 			
 		}
-		 System.out.println("Q3) How many continents are there? ");
-		 System.out.println("1) 2");
-		 System.out.println("2) 7");
-		 System.out.println("3) 11");
-		 answer3 = keyboard.nextInt();
-		 System.out.println();
-		 if (answer3 == 2 ){
-			 System.out.println("Correct!");
-			 score++;
-		 }
-		 else
-		 {
-			 System.out.println("Wrong the answer is 7");
-		 }
-		 
-		 System.out.println( "Overall, you got " + score + " out of 3 correct!");
-		 System.out.println("Thanks for playing!");
-		 
-		 keyboard.close();
-		 
+		 System.out.println("Q3) Is ");
+		 System.out.println("1) 
 		
 	}
 	
