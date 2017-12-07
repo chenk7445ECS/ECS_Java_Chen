@@ -22,12 +22,12 @@ public class HiLow
 		}
 		else if (randomNum > choice)
 		{
-			System.out.println("Sorry, you are too low. I was thinking of " + randomNum);
+			System.out.println("Sorry, you are too high. I was thinking of " + randomNum);
 			
 		}
 		else if (randomNum < choice)
 		{
-			System.out.println("Sorry, you are too high. I was thinking of " + randomNum);
+			System.out.println("Sorry, you are too low. I was thinking of " + randomNum);
 		}
 		
 		keyboard.close();
