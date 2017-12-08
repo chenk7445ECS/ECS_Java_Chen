@@ -21,6 +21,5 @@ public class Enterpin
 
 	System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
 	
-	keyboard.close();
 }
 }
