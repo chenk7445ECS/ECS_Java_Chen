@@ -9,7 +9,7 @@ public class KeepGuessing
 		
 		Random r = new Random();
 		int randomNum = 1 + r.nextInt(10);
-		
+		String response = "";
 		
 		System.out.println("I have chosen a number between 1 and 10. try to guess it");
 		int guess = keyboard.nextInt();
