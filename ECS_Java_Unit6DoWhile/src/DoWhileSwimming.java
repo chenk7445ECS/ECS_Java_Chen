@@ -52,6 +52,8 @@ public class DoWhileSwimming
         } while ( currentTemperature >= minimumTemperature );
  
         System.out.println( swimmer2 + " stops swimming. Total swim time: " + swimTime + " min." );
+        keyboard.close();
     }
+    
 }
 

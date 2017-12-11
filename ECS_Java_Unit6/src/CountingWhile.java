@@ -16,6 +16,7 @@ public class CountingWhile
 			System.out.println( (n+1) + ". " + message) ;
 			n++;
 		}
+		keyboard.close();
 	}
 
 }
