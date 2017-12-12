@@ -10,7 +10,7 @@ public class HiLow
 		Random r = new Random();
 		
 		int randomNum = 1 + r.nextInt(99);
-		
+		String response = "";
 		
 		System.out.println("I'm thinking of a number between 1-100. Try to guess it");
 		int choice = keyboard.nextInt();
