@@ -20,7 +20,7 @@ public class FlipAgain
 		else
 			coin = "TAILS";
 		
-		System.out.println("You flip a coin and it is..." + coin );
+		System.out.println("You flip a coin adn it is..." + coin );
 		
 		System.out.println("Would you like to flip again (y/n)? " );
 		again = keyboard.next();
