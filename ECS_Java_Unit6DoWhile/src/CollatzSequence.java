@@ -37,6 +37,7 @@ public class CollatzSequence
                     if (counter == 9){
                             counter = 0;
                             System.out.print("\n");
+                     keyboard.close();       
                     }
             }
 
