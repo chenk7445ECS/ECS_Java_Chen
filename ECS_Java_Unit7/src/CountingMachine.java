@@ -15,6 +15,7 @@ public class CountingMachine
 		{
 			System.out.print(n +" ");
 		}
+		keyboard.close();
 				
 		
 	}
