@@ -1,0 +1,29 @@
+import java.util.Scanner;
+ 
+public class AddingForLoops
+ {
+	public static void main (String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int number;
+		
+		System.out.println("Count to: ");
+		number = keyboard.nextInt();
+		
+	  for (int n = 1 ; n<=number ; n = n++)
+		{
+			System.out.print(n +" ");
+			
+			System.out.print(number * (number=1)/2 );
+		}
+		
+		keyboard.close();
+				
+		
+	}
+	
+	 
+
+}
+
