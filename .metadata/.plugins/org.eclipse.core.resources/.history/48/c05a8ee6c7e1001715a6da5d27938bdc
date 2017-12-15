@@ -11,11 +11,11 @@ public class MethodPass
 		System.out.println("Pick a number: ");
 		n = keyboard.nextInt();
 		
-		if (n%3 == 0 )
+		if (n%3 );
 		{
 			System.out.println("I like that number!");
 		}
-		if (n%3 !=0 )
+		if (n!%3 );
 		{
 			System.out.println("That number is gross...");
 		}

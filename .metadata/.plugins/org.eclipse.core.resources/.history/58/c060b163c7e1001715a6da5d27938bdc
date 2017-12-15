@@ -7,15 +7,16 @@ public class MethodPass
 		Scanner keyboard = new Scanner(System.in);
 		
 		int n;
+		int n2 = 3;
 		
 		System.out.println("Pick a number: ");
 		n = keyboard.nextInt();
 		
-		if (n%3 == 0 )
+		if (n%n2 == n%n2 )
 		{
 			System.out.println("I like that number!");
 		}
-		if (n%3 !=0 )
+		if (n%2 == n%2 )
 		{
 			System.out.println("That number is gross...");
 		}
