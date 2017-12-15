@@ -23,7 +23,7 @@ public class CountingMachineRevisted
 		{
 			System.out.print(n + " ");
 			
-			keyboard.close();
+			keyboard.nextInt();
 		}
 		
 	}

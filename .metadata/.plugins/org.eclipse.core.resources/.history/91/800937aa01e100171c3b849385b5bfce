@@ -9,7 +9,7 @@ public class FillInMethods
 
 		System.out.println();
 		System.out.println("I'm going to get a random character from A-Z");
-		char c = 'H';
+		char c = 'C';
 		
 		System.out.println("The character is: " + c );
 
