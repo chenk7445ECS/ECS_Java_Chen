@@ -1,0 +1,82 @@
+import java.util.Scanner;
+
+public class AreaCalculator {
+
+    public static void main(String[] args) {
+        Scanner keyboard= new Scanner(System.in);
+        int shapenumber, base, height, length, width, radius, sLength;
+        
+        System.out.print("1) Triangle" + "2) Rectangle" + "3) Square" + "4) Circle" + "5) Quit" + "Which shape: ");
+        shapenumber = keyboard.nextInt();
+        
+        
+        while(shapenumber != 5){
+        
+            if(shapenumber == 1){
+            
+                System.out.print("Base: ");
+                base = keyboard.nextInt();
+                System.out.print("Height: ");
+                height = keyboard.nextInt();  
+                System.out.println( "The area is " + area_triangle(base, height) + "\n");
+                
+                System.out.print("1) Triangle" + "2) Rectangle" + "3) Square\n" + "4) Circle" + "5) Quit" + "Which shape: ");
+                shapenumber = keyboard.nextInt();
+            
+            }else if(shapenumber == 2){
+            
+                System.out.print("Length: ");
+                length = keyboard.nextInt();
+                System.out.print("Width: ");
+                width = keyboard.nextInt();   
+                System.out.println( "The area is " + area_rectangle(length, width) + "\n");
+                
+                System.out.print("1) Triangle\n" + "2) Rectangle\n" + "3) Square\n" + "4) Circle\n" + "5) Quit\n" + "Which shape: ");
+                shapenumber = keyboard.nextInt();
+                
+            }else if(shapenumber== 3){
+            
+                System.out.print("Side length: ");
+                sLength = keyboard.nextInt();
+                System.out.print("1) Triangle\n" + "2) Rectangle\n" + "3) Square\n" + "4) Circle\n" + "5) Quit\n" + "Which shape: ");
+                shapenumber = keyboard.nextInt();
+            
+            }else if(shapenumber == 4){
+            
+                System.out.print("Radius: ");
+                radius = keyboard.nextInt();
+                System.out.println( "The area is " + area_circle(radius) + "\n");
+                
+                System.out.print("1) Triangle\n" + "2) Rectangle\n" + "3) Square\n" + "4) Circle\n" + "5) Quit\n" + "Which shape: ");
+                shapenumber = keyboard.nextInt();
+            
+            }else{
+            
+                shapenumber = 5;
+            }
+        }
+    
+    
+    
+    
+    }
+    public static double area_circle( int radius ){
+   
+        return   Math.PI * (radius * radius) ;
+    }        
+     public static double area_triangle( int base, int height ){
+    
+        return 0.5 * (base * height);
+    }
+    public static int area_rectangle( int length, int width ){
+    
+        return length * width;
+    }
+    public static int area_square( int side ){
+        
+        return side * side;
+        }
+
+  
+
+}

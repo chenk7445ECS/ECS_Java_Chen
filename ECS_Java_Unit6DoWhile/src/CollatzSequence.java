@@ -15,7 +15,7 @@ public class CollatzSequence
             System.out.print("Starting Number: ");
             int n = keyboard.nextInt();
             int counter = 0;
-            int stepsTaken = 0;
+            int stepsteken= 0;
             int largestNumber = 0;
             System.out.println();
 
